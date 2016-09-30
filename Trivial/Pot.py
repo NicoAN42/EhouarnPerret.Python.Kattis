@@ -1,5 +1,8 @@
-s = set()
-for _ in range(10):
-	i = int(input())
-	s.add(i % 42)
-print(len(s))
+n = int(input())
+x = 0
+for _ in range(n):
+	p = input()
+	power = int(p[-1])
+	number = int(p[:-1])
+	x += number ** power
+print(x)
