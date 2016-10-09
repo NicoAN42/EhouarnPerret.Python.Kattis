@@ -20,7 +20,6 @@ while True:
 		minutes = int(entry[0])
 		name = entry[1]
 		success = True if entry[2] == "right" else False
-		print(minutes, name, success)
 		if name not in problems:
 			if success:
 				problems[name] = Problem(minutes, success)
