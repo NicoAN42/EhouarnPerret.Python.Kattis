@@ -5,7 +5,7 @@
 class Problem(object):
 	def __init__(self, m, s):
 		self.minutes = m
-		self.success = s
+		self.success = s    
 
 
 problems = dict()
